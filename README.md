@@ -18,20 +18,20 @@ Sqlite database is set up with tables for users.
 Nest.js framework is being used with Node.js.
 
 ## Task Requirements
+Build REST or GraphQL API with the following:
 #### Add Blog Post Functionality:
-- Implement an endpoint (or GraphQL mutation, if GraphQL is used) to add a new blog post.
+- Implement an REST endpoint (or GraphQL mutation, if GraphQL is used) to add a new blog post.
 - Each blog post should have a title, content, author, and timestamp.
-- Ensure proper validation of the input data.
 #### Retrieve All Blog Posts:
-- Create an endpoint (or GraphQL query) to retrieve all blog posts.
-- Include pagination to handle large numbers of blog posts efficiently.
-- Optionally, allow filtering by author, date, or title. 
+- Create an REST endpoint (or GraphQL query) to retrieve all blog posts.
 #### List Authors with Their Blog Post Counts:
 - Develop a query to list all authors along with the number of blog posts they have written.
 - This should return the author's name and their post count.
-- Ensure the query is optimized for performance.
-#### Testing:
-- Write unit/e2e tests for all new endpoints and functionalities.
-#### Error Handling and Validation:
+#### Once done, consider potential improvements such as:
 - Implement robust error handling for the new endpoints.
 - Validate inputs for adding blog posts to prevent invalid data entries.
+- Include pagination to handle large numbers of blog posts efficiently.
+- Ensure the query is optimized for performance.
+- Allow filtering by author, date, or title.
+- Write unit/e2e tests for all new endpoints and functionalities.
+- etc
