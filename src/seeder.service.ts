@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { InjectDataSource } from '@nestjs/typeorm';
 import { DataSource } from 'typeorm';
-import { User } from './user.entity';
+import { User } from './blog/user.entity';
 
 @Injectable()
 export class SeederService {
